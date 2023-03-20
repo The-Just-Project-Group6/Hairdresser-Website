@@ -144,15 +144,21 @@ header button {
 
 
 /* PAUL STYLE START */
+
+/* COTACT US PAGE */
+
 #contact {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0px 50px;
+
 }
 
 #contact h1 {
     font-size: 64px;
+    font-weight: 500;
     color: #410003;
     margin: 50px 0px 50px;
 
@@ -163,7 +169,6 @@ header button {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 0px 50px;
     gap: 50px;
 }
 
@@ -209,6 +214,66 @@ header button {
     /* align-items: center; */
     color: #410003;
     margin: 20px 0px 100px;
+}
+
+
+/* TEAMS PAGE */
+#team-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 50px;
+margin-bottom: 100px;
+}
+
+#team-page h1 {
+    font-size: 64px;
+    font-weight: 500;
+    color: #410003;
+    margin: 50px 0px 0px;
+
+}
+
+#team-page .t-subtex {
+    font-size: 32px;
+    font-weight: 500;
+    color: #775653;
+    margin: 10px 0px 60px;
+    width: 50%;
+    text-align: center;
+}
+
+.t-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.t-col {
+    width: 30%;
+    text-align: center;
+}
+
+.t-col img{
+    width: 100%;
+}
+
+.t-info {
+    margin: 5px 0px 30px;
+    background: #FEDEA6;
+    padding: 20px 0px;
+    color: #410003;
+    font-weight: 500;
+}
+
+.t-info h4 {
+    font-size: 32px;
+}
+
+.t-info p {
+    font-size: 24px;
 }
 
 /* PAUL STYLE END */
