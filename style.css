@@ -386,6 +386,36 @@ header button {
     margin-top: 10px
 }
 
+
+/* TEAM MOBILE */
+   #team-page {
+    padding: 0px 30px;
+
+}
+
+
+#team-page h1 {
+    font-size: 32px;
+}
+
+#team-page .t-subtex {
+    font-size: 14px;
+}
+
+.t-info h4 {
+    font-size: 22px;
+}
+
+.t-info p {
+    font-size: 12px;
+}
+
+
+.t-col {
+    width: 48%;
+    text-align: center;
+}
+
     
 }
 
