@@ -64,7 +64,8 @@ header button {
 
 /* ----------OUR MODEL STARTS---------- */
 .models_container{
-    margin: 4.688rem 0 4.625rem 0;
+    max-width: 100rem;
+    margin: 4.688rem auto 4.625rem auto;
 }
 
 .models_container h1{
@@ -86,8 +87,13 @@ header button {
 
 .model_grid_row{
     display: grid;
-    grid-template-columns: repeat(3, 23.9rem);
-    gap: 1.45rem;
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    column-gap: 1.45rem;
+}
+
+.model_photo img{
+    width: 100%;
+    object-fit: cover;
 }
 
 .model_info h3{
@@ -115,7 +121,6 @@ header button {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
-    /* text-overflow: ellipsis; */
     overflow: hidden;
 }
 
