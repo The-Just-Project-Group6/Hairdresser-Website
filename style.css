@@ -121,8 +121,160 @@ header button {
 
 /* ----------OUR MODEL ENDS---------- */
 
+/* ----------BOOKNOW STARTS---------- */
+
+.book_now_container{
+    margin: 4.688rem 0 21.75rem 0;
+}
+
+
+
+.book_now_container h1{
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-bottom: 3.625rem;
+    color: #410003;
+}
+
+
+
+form{
+    width: 70%;
+    margin: 0 auto;
+    padding: 2.25rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
+
+}
+
+.book_now_form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 36px;
+
+}
+
+label{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #858585;
+    margin-bottom: 8px;
+}
+
+.input_field{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.book_now_form .input_field_right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.book_now_form .input_field_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.input_field_left .input, .input_field_right .input{
+    width: 100%;
+    border: 1.75px solid #e0e0e0;
+    padding: 16px 32px;
+    background: #F2F2F2;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    outline: none;
+}
+
+.input::placeholder{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #858585;
+}
+
+input[type=date]{
+    color: #858585;
+}
+
+input[type=date]:hover, input[type=date]:focus, input[type=date]:visited{
+    color: #333333;
+}
+/* .input:invalid{
+    background: #410003;
+} */
+
+.custom-select{
+    position: relative;
+ }
+
+.custom_select select{
+    width: 100%;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 16px 32px;
+    letter-spacing: 0em;
+    border: 1.75px solid #e0e0e0;
+    background: #F2F2F2;
+    appearance: none;
+    color: #333333;
+}
+
+.custom_select{
+    position: relative;
+ }
+
+ .custom_select::before{
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 50px;
+    top: 32px;
+    right: 32px;
+    border: 8px solid;
+    border-color:  #858585 transparent transparent transparent;
+    pointer-events: none;
+ }
+
+ .input:focus, .custom_select select:focus{
+    border: 2px solid#410003;
+    background: #FFFBFF;
+ }
+
+ .input:focus::-webkit-input-placeholder{
+    opacity: 0;
+ }
+
+ select :disabled{
+    color: #858585;
+ }
+
+ option{
+    background: #FFFBFF;
+    color: #333333;
+ }
 
 /* TAIWO STYLE ENDS */
+
 
 
 /* HUNCHO STYLE START */

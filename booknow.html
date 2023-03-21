@@ -32,46 +32,47 @@
     <!-- BOOK NOW -->
     <section class="book_now_container">
         <h1>Book Now</h1>
-        <form action="" method="post" class="book_now_form">
-            <div class="input_field_left">
-                <div class="input_field">
-                    <label for="">Full Name
-                        <input type="text" name="" id="" placeholder="Joe Doe">
-                    </label>
+        <form action="" method="post">
+                <div class="book_now_form">
+                    <div class="input_field_left">
+                        <div class="input_field">
+                            <label for="">Full Name</label>
+                                <input type="text" name="" id="" placeholder="Joe Doe" class="input" required>
+                        </div>
+                        <div class="input_field">
+                            <label for="Location">Location</label>
+                            <div class="custom_select">
+                                <select name="Location" id="" class="input" required>
+                                    <option selected disabled>Select Location</option>
+                                    <option value="10049, Harlem Drive, NY">10049, Harlem Drive, NY</option>
+                                    <option value="Hollyword, NY">Hollyword, NY</option>
+                                    <option value="Los Angeles, NY">Los Angeles, NY</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input_field">
+                            <label for="service">Service</label>
+                            <div class="custom_select">
+                                <select name="Location" id="" class="input" required>
+                                    <option selected disabled>Select Service</option>
+                                    <option value="Hair Cut">Hair Cut</option>
+                                    <option value="Braid">Braid</option>
+                                    <option value="Washing">Washing</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input_field_right">
+                        <div class="input_field">
+                            <label for="">Date</label>
+                                <input type="date" name="date" id="" placeholder="DD/MM/YY" class="input" required>
+                        </div>
+                        <div class="input_field">
+                            <label for="">Email</label>
+                                <input type="email" name="" id="" placeholder="joe.doe@" class="input">
+                        </div>
+                    </div>
                 </div>
-                <div class="input_field">
-                    <label for="Service">Service
-                        <select name="service" id="">
-                            <option selected disabled>Select Service</option>
-                            <option value="Hair Cut">Hair Cut</option>
-                            <option value="Braid">Braid</option>
-                            <option value="Washing">Washing</option>
-                        </select>
-                    </label>
-                </div>
-                <div class="input_field">
-                    <label for="">Date
-                        <input type="date" name="" id="" placeholder="DD/MM/YY">
-                    </label>
-                </div>
-            </div>
-            <div class="input_field_right">
-                <div class="input_field">
-                    <label for="Location">Location
-                        <select name="Location" id="">
-                            <option selected disabled>Select Location</option>
-                            <option value="10049, Harlem Drive, NY">10049, Harlem Drive, NY</option>
-                            <option value="Hollyword, NY">Hollyword, NY</option>
-                            <option value="Los Angeles, NY">Los Angeles, NY</option>
-                        </select>
-                    </label>
-                </div>
-                <div class="input_field">
-                    <label for="">Email
-                        <input type="email" name="" id="" placeholder="joe.doe@">
-                    </label>
-                </div>
-            </div>
         </form>
     </section>
 
