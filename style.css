@@ -326,6 +326,11 @@ input[type=date]:hover, input[type=date]:focus, input[type=date]:visited{
     margin-bottom: 26px;
 }
 
+.h-hero1 a{
+    color: #410003;
+    text-decoration: none;
+}
+
 .h-rating{
     display: flex;
     align-items: center;
