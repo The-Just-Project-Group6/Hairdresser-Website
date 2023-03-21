@@ -151,6 +151,7 @@ form{
 }
 
 .book_now_form{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -175,19 +176,21 @@ label{
 }
 
 .book_now_form .input_field_right{
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
 .book_now_form .input_field_left{
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
 .input_field_left .input, .input_field_right .input{
-    width: 570px;
+    width: 100%;
     border: 1.75px solid #e0e0e0;
     padding: 16px 32px;
     background: #F2F2F2;
