@@ -126,6 +126,7 @@ header button {
 
 
 /* HUNCHO STYLE START */
+/* HERO SECTION */
 #hero {
     display: flex;
     justify-content: space-between;
@@ -206,6 +207,302 @@ header button {
 .h-hero2 {
     width: 45%;
 }
+
+/* SERVICES SECTION */
+
+#services{
+    background:#FFFFFF;
+    padding: 45px 50px;
+}
+
+#services h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #410003;
+    margin-bottom: 50px;
+}
+
+.h-services{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.h-services .h-col{
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-services h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.h-services p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+/* OUR MODELS */
+
+#models{
+    padding: 30px 50px;
+    background: #FEDEA6;
+}
+
+#models h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #410003;
+    margin-bottom: 50px;
+}
+
+.h-models{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h-models img{
+    width: 100%;
+}
+
+.h-models .girl{
+    margin-bottom: 30px;
+}
+
+/* PARTNERS */
+#partners{
+    background-color: #FFFFFF;
+    padding: 45px 50px;
+}
+
+#partners h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #410003;
+    margin-bottom: 50px;
+}
+
+.h-partners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.h-partners img{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #857371;
+    border-radius: 10px;
+    padding: 10px 8px;
+    object-fit: contain;
+}
+
+/* FAQ */
+#faq{
+    background-color: #FFFFFF;
+    padding: 40px 50px;
+}
+
+#faq h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #410003;
+    margin-bottom: 50px;
+}
+
+.comtainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px -6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 25px;
+    padding: 20px 8px;
+}
+.question svg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* NEWS LETTER */
+#news-letter{
+    background: #FEDEA6;
+    padding: 40px 50px;
+}
+
+.h-unlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+
+input{
+    width: 50vw;
+    padding: 18px 8px;
+    outline: none;
+}
+
+form svg{
+    background: #9C423B;
+    position: absolute;
+    right: 300px;
+    bottom: 15px;
+    z-index: 2;
+}
+
+::placeholder{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 64px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#news-letter h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 64px;
+    text-align: center;
+    color: #1A1A1A;
+    width: 70%;
+    margin-bottom: 25px;
+}
+
+/* PRICING */
+#pricing{
+    background-color: #FFFFFF;
+    padding: 50px 50px;
+}
+
+#pricing h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #410003;
+    margin-bottom: 60px;
+}
+
+.h-cuts{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 0px 0px 15px;
+    gap: 2px;
+}
+
+
+.h-cuts h2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    background: #442927;
+    color: #FFFFFF;
+    width: 80%;
+}
+
+.h-prices{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    padding: 3px 0;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 30px rgba(233, 233, 240, 0.5);
+}
+
+.h-prices p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 48px;
+    color: #5C5C5C;
+    text-align: right;
+}
+
+.h-pricing{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+
+.h-note h4{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #5C5C5C;
+}
+
 
 /* HUNCHO STYLE END */
 
