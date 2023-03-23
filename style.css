@@ -15,6 +15,10 @@ header {
     background: #FFFFFF;
 }
 
+header svg{
+    display: none;
+}
+
 header .brand {
     width: 20%;
 }
@@ -146,7 +150,7 @@ header button {
 
 
 
-form{
+.b-form{
     width: 70%;
     margin: 0 auto;
     padding: 2.25rem;
@@ -514,29 +518,33 @@ input[type=date]:hover, input[type=date]:focus, input[type=date]:visited{
     margin-bottom: 50px;
 }
 
-.comtainer{
+.faq-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
 }
 
 
 .question{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background: #FFFFFF;
     box-shadow: 0px 10px 25px -6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     margin-bottom: 25px;
-    padding: 20px 8px;
+    padding: 20px 18px;
+    width: 65%;
 }
 .question svg{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
+    align-items: flex-end;
+    /* justify-content: flex-end; */
 }
 
 /* NEWS LETTER */
@@ -556,14 +564,20 @@ input[type=date]:hover, input[type=date]:focus, input[type=date]:visited{
 
 input{
     width: 50vw;
+    max-width: 100%;
     padding: 18px 8px;
     outline: none;
+}
+
+.h-form{
+    background: none !important;
 }
 
 form svg{
     background: #9C423B;
     position: absolute;
     right: 300px;
+    top: 165px;
     bottom: 15px;
     z-index: 2;
 }
@@ -611,8 +625,8 @@ form svg{
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    padding: 0px 0px 15px;
-    gap: 2px;
+    padding: 30px 45px;
+    width: 100%;
 }
 
 
@@ -625,16 +639,30 @@ form svg{
     text-align: center;
     background: #442927;
     color: #FFFFFF;
-    width: 80%;
+    padding: 15px 30px;
 }
 
 .h-prices{
-    display: flex;
-    gap: 4rem;
-    align-items: center;
-    padding: 3px 0;
     background: #FFFFFF;
     box-shadow: 4px 4px 30px rgba(233, 233, 240, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+    gap: 4rem;
+}
+
+.main-price{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.main-prices{
+    width: 100%;
 }
 
 .h-prices p{
@@ -651,9 +679,11 @@ form svg{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
     margin-bottom: 30px;
 }
-
 
 .h-note h4{
     font-family: 'DM Sans';
@@ -807,6 +837,119 @@ form svg{
 /* RESPONSIVENESS */
 @media only screen and (max-width: 768px) {
 
+    /* HUNCHO RESPONSIVENESS START*/
+    /* HEADER  */
+    header .brand {
+        position: absolute;
+        right: 350px;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    #hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 30px;
+    }
+
+    #hero .h-hero1, #hero .h-hero2 {
+        width: 70%;
+    }
+
+    .h-hero1 h1{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -2px;
+    }
+
+    .h-rating{
+        justify-content: center;
+    }
+
+
+    /* SERVICES */
+    #services{
+        padding: 10px 30px;
+    }
+
+    .h-services{
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 30px;
+    }
+
+    .h-services .h-col{
+        width: 50%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #faq{
+        padding: 40px 30px;
+    }
+
+    .question{
+        width: 90%;
+    }
+
+    /* NEWSLETTER */
+    #news-letter{
+        padding: 40px 30px;
+    }
+
+    #news-letter h1{
+        font-size: 35px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+    form svg{
+        background: #9C423B;
+        position: absolute;
+        right: 175px;
+        top: 148px;
+        bottom: 15px;
+        z-index: 2;
+    }
+
+    /* PRICING */
+    #pricing{
+        padding: 50px 30px;
+    }
+    .h-pricing{
+        flex-direction: column;
+
+    }
+
+    /* FOOTER */
+    footer{
+        padding: 40px 30px;
+        flex-direction: column;
+    }
+
+    .footer1{
+        /* gap: 10rem; */
+       margin-bottom: 50px;
+    }
+
+
+    #About{
+        justify-content: flex-end;
+    }
+
+    
+    /* HUNCHO RESPONSIVENESS END */
+
     /* CONTACT MOBILE */
     #contact {
     padding: 0px 30px;
@@ -881,15 +1024,195 @@ form svg{
 
 /* PAUL STYLE END */
 
+/* HUNCHO MOBILE */
+
+@media only screen and (max-width: 425px) {
+    header .brand {
+        position: absolute;
+        right: 220px;
+    }
+
+    
+    .hamburger {
+        display: block;
+    }
+
+    #hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    #hero .h-hero1, #hero .h-hero2 {
+        width: 70%;
+    }
+
+    .h-hero1 h1{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -1px;
+    }
+
+    .h-rating{
+        justify-content: center;
+    }
+
+    .h-rating h3{ 
+        font-size: 32px;
+        line-height: 54px;   
+    }
+
+    .h-rating p{
+        font-size: 16px;
+        line-height: 25px;
+    }  
+
+    #policy{
+        display: none;
+    }
+
+    #news-letter h1{
+        font-size: 17.7335px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+
+    form svg{
+        background: #9C423B;
+        position: absolute;
+        right: 85px;
+        top: 68px;
+        bottom: 15px;
+        z-index: 2;
+    }
+
+    .h-note h4{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    header .brand {
+        position: absolute;
+        right: 200px;
+    }
+
+    
+    .hamburger {
+        display: block;
+    }
+
+    #hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 30px;
+    }
+
+    #hero .h-hero1, #hero .h-hero2 {
+        width: 100%;
+    }
+
+    .h-hero1 h1{
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -1px;
+    }
+
+    .h-hero1 P{
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .h-rating{
+        justify-content: center;
+    }
+
+    .h-rating h3{ 
+        font-size: 32px;
+        line-height: 54px;   
+    }
+    
+    .h-rating p{
+        font-size: 16px;
+        line-height: 25px;
+    }  
+
+    #services h1, #models h1, #partners h1, #pricing h1, #faq h1{
+        font-size: 45px;
+        line-height: 80px;
+        text-align: center;
+        letter-spacing: -2px;
+        margin-bottom: 20px;
+    }
+
+    .h-services .h-col{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .question{
+        box-shadow: 0px 10px 25px -6px rgba(0, 0, 0, 0.1);
+        width: 100%;
+    }
+
+
+    #news-letter h1{
+        font-size: 17.7335px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+
+
+    form svg{
+        background: #9C423B;
+        position: absolute;
+        right: 75px;
+        top: 68px;
+        bottom: 15px;
+        z-index: 2;
+    }
+
+    .h-prices p{
+        font-size: 16px;
+        line-height: 38px;
+        color: #5C5C5C;
+        text-align: justify;
+        white-space: nowrap;
+    }
+
+    .h-note h4{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .footer2 .copy{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        white-space: nowrap;
+    }
+
+}
 
 
 
 
+/* HUNCHO MOBILE RESPONSIVENESS END */
 
 /* FOOTER */
 
 footer{
-    background: #1E1E1E;
+    background: #2C1513;
     display: flex;
     justify-content: space-between;
     align-items: center;
