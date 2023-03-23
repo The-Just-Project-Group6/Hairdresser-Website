@@ -567,6 +567,8 @@ input{
     max-width: 100%;
     padding: 18px 8px;
     outline: none;
+    background: #FFFFFF;
+    border: none;
 }
 
 .h-form{
@@ -1096,15 +1098,26 @@ form svg{
 }
 
 @media only screen and (max-width: 375px) {
+    header{
+        padding: 10px 30px;
+    }
+
     header .brand {
         position: absolute;
-        right: 200px;
+        right: 180px;
     }
 
     
     .hamburger {
         display: block;
     }
+
+    header button {
+        font-size: 11.5584px;
+        line-height: 17px;
+        padding: 5.62338px 9.24675px;
+    }
+    
 
     #hero {
         flex-direction: column;
@@ -1143,6 +1156,10 @@ form svg{
         line-height: 25px;
     }  
 
+    #services{
+        padding: 25px 30px;
+    }
+
     #services h1, #models h1, #partners h1, #pricing h1, #faq h1{
         font-size: 45px;
         line-height: 80px;
@@ -1157,6 +1174,26 @@ form svg{
         margin-bottom: 20px;
     }
 
+    #partners{
+        padding: 45px 30px;
+    }
+
+    #models{
+        padding: 30px 30px;
+    }
+
+    #faq{
+        padding: 40px 30px;
+    }
+
+    #news-letter{
+        padding: 40px 30px;
+    }
+
+    #pricing{
+        padding: 50px 30px;
+    }
+
     .question{
         box-shadow: 0px 10px 25px -6px rgba(0, 0, 0, 0.1);
         width: 100%;
@@ -1169,12 +1206,13 @@ form svg{
     }
 
     form svg{
-        background: #9C423B;
+        /* background: #9C423B;
         position: absolute;
         right: 75px;
         top: 68px;
         bottom: 15px;
-        z-index: 2;
+        z-index: 2; */
+        display: none;
     }
 
     .h-prices p{
@@ -1189,6 +1227,10 @@ form svg{
         font-weight: 500;
         font-size: 14px;
         line-height: 24px;
+    }
+
+    footer{
+        padding: 40px 30px;
     }
 
     .footer2 .copy{
