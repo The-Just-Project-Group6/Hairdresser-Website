@@ -938,7 +938,6 @@ form svg{
     }
 
     .footer1{
-        /* gap: 10rem; */
        margin-bottom: 50px;
     }
 
@@ -1019,7 +1018,6 @@ form svg{
     text-align: center;
 }
 
-    
 }
 
 /* PAUL STYLE END */
@@ -1164,13 +1162,11 @@ form svg{
         width: 100%;
     }
 
-
     #news-letter h1{
         font-size: 17.7335px;
         line-height: 24px;
         font-weight: 500;
     }
-
 
     form svg{
         background: #9C423B;
@@ -1203,8 +1199,6 @@ form svg{
     }
 
 }
-
-
 
 
 /* HUNCHO MOBILE RESPONSIVENESS END */
