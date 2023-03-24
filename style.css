@@ -1251,9 +1251,10 @@ input[type=date]:hover, input[type=date]:focus, input[type=date]:visited{
     gap: 50px;
 }
 
-.c-content h1 {
-    font-size: 32px;
+#contact h1 {
+    font-size: 2rem;
 }
+
 
 .c-left, .c-right {
     width: 100%;
@@ -1285,7 +1286,7 @@ input[type=date]:hover, input[type=date]:focus, input[type=date]:visited{
 
 
 #team-page h1 {
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 #team-page .t-subtex {
