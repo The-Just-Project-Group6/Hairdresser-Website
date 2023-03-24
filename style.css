@@ -151,7 +151,7 @@ header button {
 
 
 
-.b-form{
+.bookform{
     width: 70%;
     margin: 0 auto;
     padding: 2.25rem;
@@ -860,19 +860,10 @@ form svg{
 
 
 /* RESPONSIVENESS */
-@media only screen and (max-width: 1200px){
-    select option .truncated_text{
-        display: inline-block;
-        width: 100%;
-        max-width: 100px;
-        text-overflow: ellipsis;
-        overflow: hidden;
-    }
-}
 
 @media only screen and (max-width: 768px) {
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 
     /* MODEL MOBILE */
     .models_container{
@@ -891,7 +882,7 @@ form svg{
     
     .model_grid_container{
         display: grid;
-        /* grid-template-columns: repeat(2, 1fr); */
+        grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
         justify-items: center;
         align-content: center;
@@ -927,8 +918,7 @@ form svg{
         color: #858585;
     }
     
-    .model_info .truncated_text{
-        
+    p .truncated_text{
         display: -webkit-box;
         -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
@@ -938,7 +928,7 @@ form svg{
     /* ----------BOOKNOW STARTS---------- */
 
 .book_now_container{
-    margin: 4.688rem 0 21.75rem 0;
+    margin: 4.688rem 0 15rem 0;
 }
 
 
@@ -1110,7 +1100,7 @@ input[type=date]:hover, input[type=date]:focus, input[type=date]:visited{
 .btn:hover{
     color: #775653;
 }
-=======
+
     /* HUNCHO RESPONSIVENESS START*/
     /* HEADER  */
     header .brand {
@@ -1245,7 +1235,6 @@ input[type=date]:hover, input[type=date]:focus, input[type=date]:visited{
 
     
     /* HUNCHO RESPONSIVENESS END */
->>>>>>> f668552a80c3e0c87a1482f45596dcdcd1b7073f
 
     /* CONTACT MOBILE */
     #contact {
