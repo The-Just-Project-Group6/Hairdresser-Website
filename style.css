@@ -861,26 +861,31 @@ form svg{
         padding: 60px 30px;
     }
 
+    .h-hero1 {
+        display: flex;
+        flex-direction: column;
+        order: 1;
+    }
+    
     .h-first {
         order: 1;
-      }
-      
-      .h-hero2 {
+    }
+    
+    .h-hero2 {
         order: 2;
-      }
-      
-      .third {
+    }
+    
+    .third {
         order: 3;
-      }
-      
-      .fourth {
-        order: 4;
-      }
+    }
 
-      .h-rating {
+    .fourth {
+        order: 4;
+    }
+    
+    .h-rating {
         order: 5;
-      }
-      
+    }
 
 
     #hero .h-hero1, #hero .h-hero2 {
