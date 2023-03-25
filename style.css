@@ -397,6 +397,8 @@ input[type=date]:hover, input[type=date]:focus, input[type=date]:visited{
     width: 45%;
 }
 
+
+
 /* SERVICES SECTION */
 
 #services{
@@ -454,6 +456,8 @@ input[type=date]:hover, input[type=date]:focus, input[type=date]:visited{
     color: #4D4D4D;
 }
 
+
+
 /* OUR MODELS */
 
 #models{
@@ -487,6 +491,8 @@ input[type=date]:hover, input[type=date]:focus, input[type=date]:visited{
 .h-models .girl{
     margin-bottom: 30px;
 }
+
+
 
 /* PARTNERS */
 #partners{
@@ -570,6 +576,8 @@ input[type=date]:hover, input[type=date]:focus, input[type=date]:visited{
     /* justify-content: flex-end; */
 }
 
+
+
 /* NEWS LETTER */
 #news-letter{
     background: #FEDEA6;
@@ -627,6 +635,8 @@ form svg{
     width: 70%;
     margin-bottom: 25px;
 }
+
+
 
 /* PRICING */
 #pricing{
@@ -741,6 +751,7 @@ form svg{
 
 #contact h1 {
     font-size: 64px;
+    text-align: center;
     font-weight: 500;
     color: #410003;
     margin: 50px 0px 50px;
@@ -813,6 +824,8 @@ form svg{
     font-weight: 500;
     color: #410003;
     margin: 50px 0px 0px;
+    text-align: center;
+
 
 }
 
@@ -826,10 +839,20 @@ form svg{
 }
 
 .t-content {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.t-designer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
 }
 
 .t-col {
@@ -860,6 +883,42 @@ form svg{
 
 
 /* RESPONSIVENESS */
+@media only screen and (max-width: 920px) and (min-width: 769px) {
+
+
+#team-page h1 {
+    font-size: 3rem;
+}
+
+#team-page .t-subtex {
+    font-size: 14px;
+    width: 90%;
+}
+
+.t-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+
+    }
+
+.t-info h4 {
+    font-size:1.2rem;
+}
+
+.t-info p {
+    font-size: 12px;
+}
+
+
+.t-col {
+    width: 47%;
+    text-align: center;
+}
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -1294,8 +1353,18 @@ input[type=date]:hover, input[type=date]:focus, input[type=date]:visited{
     width: 90%;
 }
 
+.t-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    }
+
 .t-info h4 {
-    font-size: 22px;
+    font-size:1.2rem;
 }
 
 .t-info p {
@@ -1304,7 +1373,7 @@ input[type=date]:hover, input[type=date]:focus, input[type=date]:visited{
 
 
 .t-col {
-    width: 48%;
+    width: 45%;
     text-align: center;
 }
 
