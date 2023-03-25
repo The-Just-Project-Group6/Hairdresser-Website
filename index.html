@@ -7,6 +7,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Home Page</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -15,7 +17,7 @@
 		/>
 		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body>
+	<body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
 		<!-- HEADER -->
 		<header>
             
@@ -65,15 +67,15 @@
 		</header>
 
 		<!-- HERO -->
-		<div id="hero">
-			<div class="h-hero1">
+		<div id="hero" data-aos="fade-up" data-aos-duration="3000">
+			<div class="h-hero1" data-aos="zoom-in" data-aos-duration="1000">
 				<h1 class="h-first">
 					We’re dedicated to making you look and feel your best
 				</h1>
 
-<div class="h-hero2-mob">
-				<img src="images/Frame 3.svg" alt="" />
-			</div>
+                <div class="h-hero2-mob">
+                    <img src="images/Frame 3.svg" alt="" />
+                </div>
 
 				<p class="third">
 					Beat the wait and reserve a hairstyling session today with the best
@@ -111,13 +113,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="h-hero2">
+			<div class="h-hero2" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-back"
+            data-aos-delay="400"
+            data-aos-offset="0">
 				<img src="images/Frame 3.svg" alt="" />
 			</div>
 		</div>
 
 		<!-- SERVICES -->
-		<div id="services">
+		<div id="services" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0">
 			<h1>Our Services</h1>
 			<div class="h-services">
 				<div class="h-col">
@@ -157,7 +163,9 @@
 		</div>
 
 		<!-- OUR MODELS -->
-		<div id="models">
+		<div id="models" data-aos="flip-left" data-aos-duration="2000" data-aos-easing="ease-in-back"
+        data-aos-delay="200"
+        data-aos-offset="0">
 			<h1>Our Models</h1>
 			<div class="h-models">
 				<div class="girl">
@@ -170,32 +178,34 @@
 		</div>
 
 		<!-- PARTNERS -->
-		<div id="partners">
+		<div id="partners" >
 			<h1>Our Partners</h1>
 			<div class="h-partners">
-				<div class="h-partner1">
+				<div class="h-partner1" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
 					<img src="images/image 7.svg" alt="" />
 				</div>
-				<div class="h-partner1">
+				<div class="h-partner1" data-aos="fade-up" data-aos-duration="3000">
 					<img src="images/image 18.svg" alt="" />
 				</div>
-				<div class="h-partner1">
+				<div class="h-partner1" data-aos="fade-down" data-aos-duration="3000">
 					<img src="images/image 19.svg" alt="" />
 				</div>
-				<div class="h-partner1">
+				<div class="h-partner1" data-aos="zoom-in-up" data-aos-duration="3000">
 					<img src="images/image 20.svg" alt="" />
 				</div>
-				<div class="h-partner1">
+				<div class="h-partner1" data-aos="flip-right" data-aos-duration="3000">
 					<img src="images/image 21.svg" alt="" />
 				</div>
 			</div>
 		</div>
 
 		<!-- FAQ -->
-		<div id="faq">
+		<div id="faq" data-aos="fade-up" data-aos-duration="3000">
 			<h1>FAQs</h1>
 			<div class="faq-container">
-				<div class="question">
+				<div class="question" data-aos="fade-up" data-aos-delay="100">
 					<h3>How do I book an appointment</h3>
 					<svg
 						width="20"
@@ -210,7 +220,7 @@
 						/>
 					</svg>
 				</div>
-				<div class="question">
+				<div class="question" data-aos="fade-up" data-aos-delay="200">
 					<h3>What services do we offer?</h3>
 					<svg
 						width="20"
@@ -225,7 +235,7 @@
 						/>
 					</svg>
 				</div>
-				<div class="question">
+				<div class="question" data-aos="fade-up" data-aos-delay="300">
 					<h3>Do you offer consultations?</h3>
 					<svg
 						width="20"
@@ -240,7 +250,7 @@
 						/>
 					</svg>
 				</div>
-				<div class="question">
+				<div class="question" data-aos="fade-up" data-aos-delay="400">
 					<h3>What hair products do you use?</h3>
 					<svg
 						width="20"
@@ -255,7 +265,7 @@
 						/>
 					</svg>
 				</div>
-				<div class="question">
+				<div class="question" data-aos="fade-up" data-aos-delay="500">
 					<h3>How long will my appointment take?</h3>
 					<svg
 						width="20"
@@ -274,15 +284,15 @@
 		</div>
 
 		<!-- NEWS LETTER -->
-		<div id="news-letter">
+		<div id="news-letter" data-aos="flip-right" data-aos-duration="3000">
 			<div class="h-unlock">
 				<h1>
 					"Unlock Your Best Hair Yet: Our Latest Newsletter Edition Has
 					Arrived!"
 				</h1>
 				<form action="" class="h-form">
-					<input type="text" placeholder="Your email address" />
-					<svg
+					<input type="text" class="h-input" placeholder="Your email address" />
+					<!-- <svg
 						width="32"
 						height="32"
 						viewBox="0 0 26 18"
@@ -293,16 +303,16 @@
 							d="M16.75 0.25L14.9875 2.0125L20.7125 7.75H0.5V10.25H20.7125L14.975 15.9875L16.75 17.75L25.5 9L16.75 0.25Z"
 							fill="white"
 						/>
-					</svg>
+					</svg> -->
 				</form>
 			</div>
 		</div>
 
 		<!-- PRICING -->
-		<div id="pricing">
+		<div id="pricing" data-aos="fade-up">
 			<h1>Pricing</h1>
 			<div class="h-pricing">
-				<div class="h-cuts">
+				<div class="h-cuts" data-aos="zoom-in" data-aos-duration="1000">
 					<div class="h-h2">
 						<h2>CUTS</h2>
 					</div>
@@ -321,7 +331,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="h-cuts">
+				<div class="h-cuts" data-aos="zoom-in" data-aos-duration="1000">
 					<div class="h-h2">
 						<h2>COLOR</h2>
 					</div>
@@ -341,7 +351,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="h-cuts">
+				<div class="h-cuts" data-aos="zoom-in-up" data-aos-duration="1000">
 					<div class="h-h2">
 						<h2>HIGHLIGHT</h2>
 					</div>
@@ -361,7 +371,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="h-note">
+			<div class="h-note" data-aos="zoom-in" data-aos-duration="1000">
 				<h4>
 					Actual prices vary from stylist to stylist. <br />We are unable to
 					offer free bang trims during this period of time.
@@ -410,5 +420,10 @@
 				<p class="copy">© 2021 | Cora Leviene All Rights Reserved</p>
 			</div>
 		</footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
 	</body>
 </html>

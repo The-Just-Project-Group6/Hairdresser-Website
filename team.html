@@ -7,6 +7,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Home Page</title>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -61,12 +63,12 @@
 
 		<!-- MAIN -->
 
-		<div id="team-page">
+		<div id="team-page" data-aos="fade-up">
 			<h1>Meet the Team</h1>
 			<p class="t-subtex">People who make magic happen behind the scenes</p>
 
 			<div class="t-content">
-				<div class="t-col1 t-col">
+				<div class="t-col1 t-col" data-aos="fade-up" data-aos-duration="1000">
 					<div class="img">
 						<img src="/images/paul.svg" alt="team picture" />
 					</div>
@@ -75,7 +77,7 @@
 						<p>"Developer"</p>
 					</div>
 				</div>
-				<div class="t-col2 t-col">
+				<div class="t-col2 t-col" data-aos="flip-left" data-aos-duration="1400">
 					<div class="img">
 						<img src="/images/taiwo.svg" alt="team picture" />
 					</div>
@@ -84,7 +86,7 @@
 						<p>"Developer"</p>
 					</div>
 				</div>
-				<div class="t-col3 t-col">
+				<div class="t-col3 t-col" data-aos="zoom-in" data-aos-duration="1800">
 					<div class="img">
 						<img src="/images/sherif.svg" alt="team picture" />
 					</div>
@@ -94,7 +96,7 @@
 					</div>
 				</div>
 				<!-- <div class="t-designer"> -->
-					<div class="t-col4 t-col">
+					<div class="t-col4 t-col" data-aos="fade-up" data-aos-duration="2000">
 						<div class="img">
 							<img src="/images/Uzoma.svg" alt="team picture" />
 						</div>
@@ -112,7 +114,7 @@
 						<p>"UI Designer"</p>
 					</div>
 				</div> -->
-					<div class="t-col6 t-col">
+					<div class="t-col6 t-col" data-aos="fade-up" data-aos-duration="2400">
 						<div class="img">
 							<img src="/images/king.svg" alt="team picture" />
 						</div>
@@ -167,5 +169,10 @@
 				<p class="copy">© 2021 | Cora Leviene All Rights Reserved</p>
 			</div>
 		</footer>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
 	</body>
 </html>
