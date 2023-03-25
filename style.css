@@ -587,24 +587,24 @@ option {
 input {
 	width: 50vw;
 	max-width: 100%;
-	padding: 18px 8px;
+	padding: 18px 18px;
 	outline: none;
 	background: #ffffff;
 	border: none;
+}
+
+.h-input{
+    background-image: url(images/arow.svg);
+    background-position: right;
+    background-size: 32px;
+    padding-right: 50px;
+    background-repeat: no-repeat;
 }
 
 .h-form {
 	background: none !important;
 }
 
-form svg {
-	background: #9c423b;
-	position: absolute;
-	right: 300px;
-	top: 165px;
-	bottom: 15px;
-	z-index: 2;
-}
 
 ::placeholder {
 	font-family: "DM Sans";
@@ -1259,14 +1259,7 @@ form svg {
 		margin-bottom: 10px;
 	}
 
-	form svg {
-		background: #9c423b;
-		position: absolute;
-		right: 175px;
-		top: 148px;
-		bottom: 15px;
-		z-index: 2;
-	}
+	
 
 	/* PRICING */
 	#pricing {
@@ -1513,14 +1506,15 @@ form svg {
 		font-weight: 500;
 	}
 
-	form svg {
-		background: #9c423b;
-		position: absolute;
-		right: 85px;
-		top: 68px;
-		bottom: 15px;
-		z-index: 2;
-	}
+
+    .h-form {
+        width: 100%;
+    }
+
+    .h-input {
+        width: 100%;
+        padding: 18px 10px;
+    }
 
 	::placeholder {
 		font-size: 16px;
@@ -1685,15 +1679,15 @@ form svg {
 		font-size: 16px;
 	}
 
-	form svg {
-		/* background: #9C423B;
-        position: absolute;
-        right: 75px;
-        top: 68px;
-        bottom: 15px;
-        z-index: 2; */
-		display: none;
-	}
+    .h-input {
+        width: 100%;
+        padding: 18px 10px;
+    }
+
+    .h-form {
+        width: 100%;
+    }
+
 
 	.h-prices p {
 		font-size: 16px;
