@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Models</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -37,13 +39,14 @@
             </a>
         </header>
             <!------ OUR MODELS SECTION STARTS----->
-        <section class="models_container">
+        <section class="models_container" data-aos="fade-up" data-aos-duration="3000">
             <h1>Our models</h1>
 
              <!------ OUR MODELS GRID----->
-            <div class="model_grid_container">
-                <div class="model_grid_row">
-                    <div class="model_card">
+            <div class="model_grid_container" >
+                    <div class="model_card" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <div class="model_photo">
                             <img src="images/image 1 (1).svg" alt="Maria Hendricks_model">
                         </div>
@@ -52,7 +55,10 @@
                             <p>"Amazing service and a fantastic haircut!"</p>
                         </div>
                     </div>
-                    <div class="model_card">
+                    <div class="model_card" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                        <!-- <div class="model_photo"> -->
                         <div class="model_photo">
                             <img src="images/image 3 (2).svg" alt="Maria Hendricks_model">
                         </div>
@@ -61,7 +67,9 @@
                             <p>“Friendly staff and great atmosphere!”</p>
                         </div>
                     </div>
-                    <div class="model_card">
+                    <div class="model_card" data-aos="flip-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <div class="model_photo">
                             <img src="images/image 2.svg" alt="Maria Hendricks_model">
                         </div>
@@ -70,9 +78,7 @@
                             <p class="truncated_text">"I had a fantastic experience at this hairdressing salon! The staff was friendly and welcoming, and the salon itself was clean and modern. My stylist was experienced and talented, and she gave me great advice on how to care for my hair. I left feeling confident and refreshed. I will definitely be coming back!"</p>
                         </div>
                     </div>
-                </div>
-                <div class="model_grid_row">
-                    <div class="model_card">
+                    <div class="model_card" data-aos="fade-down" data-aos-duration="3000">
                         <div class="model_photo">
                             <img src="images/image 5.svg" alt="Maria Hendricks_model">
                         </div>
@@ -81,7 +87,7 @@
                             <p>"Amazing service and a fantastic haircut!"</p>
                         </div>
                     </div>
-                    <div class="model_card">
+                    <div class="model_card" data-aos="zoom-in-up" data-aos-duration="3000">
                         <div class="model_photo">
                             <img src="images/image 4 (1).svg" alt="Maria Hendricks_model">
                         </div>
@@ -90,7 +96,7 @@
                             <p>“Friendly staff and great atmosphere!”</p>
                         </div>
                     </div>
-                    <div class="model_card">
+                    <div class="model_card" data-aos="flip-right" data-aos-duration="3000">
                         <div class="model_photo">
                             <img src="images/image 3 (3).svg" alt="Maria Hendricks_model">
                         </div>
@@ -99,9 +105,9 @@
                             <p class="truncated_text">"I had a fantastic experience at this hairdressing salon! The staff was friendly and welcoming, and the salon itself was clean and modern. My stylist was experienced and talented, and she gave me great advice on how to care for my hair. I left feeling confident and refreshed. I will definitely be coming back!"</p>
                         </div>
                     </div>
-                </div>
-                <div class="model_grid_row">
-                    <div class="model_card">
+                    <div class="model_card" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                         <div class="model_photo">
                             <img src="images/image 1 (1).svg" alt="Maria Hendricks_model">
                         </div>
@@ -110,7 +116,7 @@
                             <p>"Amazing service and a fantastic haircut!"</p>
                         </div>
                     </div>
-                    <div class="model_card">
+                    <div class="model_card" data-aos="zoom-in-up" data-aos-duration="3000">
                         <div class="model_photo">
                             <img src="images/image 3 (2).svg" alt="Maria Hendricks_model">
                         </div>
@@ -119,7 +125,9 @@
                             <p>“Friendly staff and great atmosphere!”</p>
                         </div>
                     </div>
-                    <div class="model_card">
+                    <div class="model_card" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
                         <div class="model_photo">
                             <img src="images/image 2.svg" alt="Maria Hendricks_model">
                         </div>
@@ -127,7 +135,7 @@
                             <h3>Ari Lenx</h4>
                             <p class="truncated_text">"I had a fantastic experience at this hairdressing salon! The staff was friendly and welcoming, and the salon itself was clean and modern. My stylist was experienced and talented, and she gave me great advice on how to care for my hair. I left feeling confident and refreshed. I will definitely be coming back!"</p>
                         </div>
-                </div>
+                    </div>
             </div>
         </section>
         <!------- OUR MODELS SECTION ENDS------>
@@ -165,7 +173,8 @@
 
             <div class="footer2">
                 <div class="social">
-                    <img src="./images/Vector (1).svg" alt="facebook">
+                               <img src="./images/facebook.svg" alt="facebook">
+
                     <img src="./images/Vector (2).svg" alt="instagram">
                     <img src="./images/Vector.svg" alt="twitter">
                 </div>
@@ -173,5 +182,10 @@
                 <p class="copy">© 2021 | Cora Leviene All Rights Reserved</p>
             </div>
         </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
 </body>
 </html>

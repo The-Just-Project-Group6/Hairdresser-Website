@@ -7,6 +7,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Home Page</title>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -51,11 +53,14 @@
 
 		<!-- MAIN -->
 
-		<div id="contact">
+		<div id="contact" data-aos="flip-up">
 			<h1>Contact</h1>
 
-			<div class="c-content">
-				<div class="c-left">
+			<div class="c-content" data-aos="fade-up"
+			data-aos-anchor-placement="top-bottom">
+				<div class="c-left" data-aos="flip-left"
+				data-aos-easing="ease-out-cubic"
+				data-aos-duration="2000">
 					<div class="img">
 						<img src="/images/Frame31.png" alt="" srcset="" />
 					</div>
@@ -82,7 +87,9 @@
 					</a>
 				</div>
 
-				<div class="c-right">
+				<div class="c-right" data-aos="fade-down"
+				data-aos-easing="linear"
+				data-aos-duration="1500">
 					<div class="img">
 						<img src="/images/Frame32.png" alt="" srcset="" />
 					</div>
@@ -145,7 +152,8 @@ tel: (718) 624-8383</p>
 
 			<div class="footer2">
 				<div class="social">
-					<img src="./images/Vector (1).svg" alt="facebook">
+				                <img src="./images/facebook.svg" alt="facebook">
+
                 <img src="./images/Vector (2).svg" alt="instagram">
                 <img src="./images/Vector.svg" alt="twitter">
 				</div>
@@ -153,5 +161,10 @@ tel: (718) 624-8383</p>
 				<p class="copy">© 2021 | Cora Leviene All Rights Reserved</p>
 			</div>
 		</footer>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
 	</body>
 </html>
